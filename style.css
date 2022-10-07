@@ -317,7 +317,7 @@ input {
 @media all and (max-width: 1100px) {
 
     .one {
-        max-height: 90vh;
+        max-height: 100vh;
         overflow: hidden;
         position: relative;
     }
@@ -342,7 +342,7 @@ input {
     }
     
     .container {
-        height: 60vh;
+        height: 80vh;
         width: 80%;
     }
     
@@ -418,11 +418,11 @@ input {
     }
     
     .fout-description {
-        font-size: 15px;
+        font-size: 12px;
         padding: 10px;
     }
     .img-doctor {
-        width: 250px;
+        width: 180px;
     }
     
     .four_list {
