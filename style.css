@@ -314,7 +314,186 @@ input {
     border: 2px solid #06283D;
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1100px) {
+
+    .one {
+        max-height: 90vh;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .video {
+        position: relative;
+        z-index: 1;
+        padding-bottom: 76%;
+    }
+    
+    .media {
+        width: auto;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .one_content {
+        width: 90%;
+        height: auto;
+    }
+    
+    .container {
+        height: 60vh;
+        width: 80%;
+    }
+    
+    .heading {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    
+    .img-prod {
+        margin: 5%;
+        padding: 10px;
+        width: 120px;
+        height: auto;
+    }
+
+    .marker {
+        width: 20px;
+        height: auto;
+    }
+
+    .one-list-item {
+        font-size: 20px;
+    }
+    
+    .two {
+        height: 90vh;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .product {
+        width: 80%;
+    }
+    
+    .btn-order {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
+    
+    .ingredient {
+        width: 100px;
+    }
+    
+    .two_content {
+        height: 40vh;
+    }
+    
+    .h-ing {
+        font-size: 18px;
+    }
+
+    .feedback-heading {
+        font-size: 23px;
+        padding: 5px;
+    }
+    
+    .feedback-text {
+        font-size: 17px;
+        padding: 7px;
+    }
+    
+    .four {
+        height: 100vh;
+    }
+    
+    .four_content {
+        height: 90vh;
+    }
+    
+    .fout-description {
+        font-size: 15px;
+        padding: 10px;
+    }
+    .img-doctor {
+        width: 250px;
+    }
+    
+    .four_list {
+        padding-bottom: 10px;
+    }
+    
+    .item {
+        padding: 10px;
+        margin: 5px;
+        font-size: 17px;
+    }
+    
+    .five {
+        height: 100vh;
+    }
+    
+    .five-name {
+        font-size: 28px;
+        padding: 12px;
+    }
+    
+    form {
+        height: 80%;
+        padding: 15px;
+        font-size: 15px;
+    }
+    
+    del {
+        padding: 10px;
+        font-size: 15px;
+        }
+        
+    ins {
+        padding: 10px;
+        font-size: 22px;
+        }
+
+        .heading-order {
+            font-size: 30px;
+        }
+        
+        
+        #countdown {
+            font-size: 37px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 45px;
+            padding-left: 45px;
+            border-radius: 7px;
+        }
+        
+        .btn-post {
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            font-size: 22px;
+            border: 1px solid #06283D;
+        }
+        
+        input {
+            padding: 10px;
+        }
+
+        label {
+            padding: 8px;
+            margin: 5px;
+        }
+}
+
+@media all and (max-width: 1000px) {
 
     .one {
         max-height: 60vh;
@@ -496,14 +675,14 @@ input {
 @media all and (max-width: 500px) {
 
     .one {
-        max-height: 65vh;
+        max-height: 70vh;
         
     }
 
     .video {
         position: relative;
         z-index: 1;
-        padding-bottom: 76%;
+        padding-bottom: 96%;
     }
     
     .media {
@@ -534,12 +713,12 @@ input {
     .img-prod {
         margin: 5%;
         padding: 5px;
-        width: 80px;
+        width: 70px;
         height: auto;
     }
 
     .marker {
-        width: 12px;
+        width: 8px;
         height: auto;
     }
 
